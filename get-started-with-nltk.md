@@ -36,6 +36,6 @@
 ##### 3.频率分布
 函数`FreqDist(text)`生成`单词:频率`字典
 
-函数`hapaxes(n)`查看低频词
+函数`hapaxes()`查看低频词
 
-函数`most_common(n)`查看高频词
+函数`most_common(n)`查看前n个高频词
