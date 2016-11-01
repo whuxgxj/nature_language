@@ -4,7 +4,7 @@
 
 **函数**`concordance(some word)` :在文本中搜索包括某个单词的句子,包括前后文,以搜索的单词为中心对齐,按行显示排列.
 
-> `from nltk.book import*`
+> `from nltk.book import *`
 > `text1.concordance("monstrous")`
 
 **函数**`similar(some word)`:寻找相似的用法或者单词
