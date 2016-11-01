@@ -1,4 +1,10 @@
-# My Awesome Book
+##### 消除歧义
+> 根据上下文判断词语的含义
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
-初三大四
+##### 指代消解
+> 确定名词或者代词指的是什么-------和语义角色标注--------确定名词短语如何与动词相关联
+
+#####自动生成语言
+> 包括自动问答和机器翻译
+> ###### 人机对话系统
+> ###### 机器翻译
