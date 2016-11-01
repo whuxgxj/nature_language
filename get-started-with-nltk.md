@@ -38,3 +38,29 @@
 函数`hapaxes()`查看低频词
 函数`most_common(n)`查看前n个高频词
 
+| 函数名 | 功能 |
+| --- | --- |
+| `fdist =FreqDist(samples)` | 创建包含给定样本的频率分布 |
+| `fdist.inc(sample)` | 增加样本 |
+| `fdist['monstrous']` | 计算给定样本出现的次数 |
+| `fdist.freq('monstrous')` | 给定样本的频率 |
+| `fdist.N()` | 样本总数 |
+| `fdist.keys()` | 以频率递减次序排列的样本列表 |
+| `for ... in fdist` | 以频率递减次序遍历列表 |
+| `fdist.max()` | 数值最大的样本 |
+| `fdist.tabulate()` | 绘制频率分布表 |
+| `fdist.plot()` | 绘制频率分布图 |
+| `fdist.plot(n,cimulative=True)` | 绘制累积频率分布图 |
+| `fdist1<fdist2` | 测试样本在fdist1中出现的频率是否小于在fdist2中出现的频率 |
+
+##### 4.细粒度的选择词
+短高频词    长低频词
+
+##### 5.词语搭配和双连词(bigrams)
+| 函数名 | 功能 |
+| --- | --- |
+| `bigrams([])` | 列出出现在一块儿的词组 |
+| `text.collocations()` | 频繁出现的词组(双连词) |
+
+
+
