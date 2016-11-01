@@ -28,3 +28,14 @@
 > `from future import division`
 > `len(text)/len(set(text))`
 
+在nltk中有特定的函数去统计词汇
+
+函数`count(word)` 计算某个单词在文中出现的次数
+
+
+##### 3.频率分布
+函数`FreqDist(text)`生成`单词:频率`字典
+
+函数`hapaxes(n)`查看低频词
+
+函数`most_common(n)`查看高频词
